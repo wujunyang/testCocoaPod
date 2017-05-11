@@ -47,4 +47,4 @@ pod search wjyTestCocoaPod
    - Versions: 0.0.1 [master repo]
 
 
-注意：审核会后，当我pod search 自己库名的时候，这个时候始终没有出现。其实这个时候你需要重新配置下你本地的pod库索引 pod setup,等待同步、合并的过程，完成后再来pod search 'wjyTestCocoaPod'就出来了
+注意：审核会后，当我pod search 自己库名的时候，这个时候始终没有出现。其实这个时候你需要重新配置下你本地的pod库索引 pod setup,等待同步、合并的过程，完成后再来pod search 'wjyTestCocoaPod'就出来了；如果还没有出来，可以直接在https://github.com/CocoaPods/Specs里面查找一下是否存在，存在也是可以直接POD下载下来了；
