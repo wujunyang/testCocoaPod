@@ -45,3 +45,6 @@ pod search wjyTestCocoaPod
    - Homepage: https://github.com/wujunyang/testCocoaPod
    - Source:   https://github.com/wujunyang/testCocoaPod.git
    - Versions: 0.0.1 [master repo]
+
+
+注意：审核会后，当我pod search 自己库名的时候，这个时候始终没有出现。其实这个时候你需要重新配置下你本地的pod库索引 pod setup,等待同步、合并的过程，完成后再来pod search 'wjyTestCocoaPod'就出来了
